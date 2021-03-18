@@ -112,22 +112,22 @@ conda activate topic_env
 bash topic_install.sh
 ```
 Before use notebooks and scripts, type conda activate statement to init specific env.
-Following is the different file and their env mapping.
-
-(jointbert_env)
-[condition_trainer.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/condition_trainer.py)
-[tableQA_single_table.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableQA_single_table.py)
-[tableqa-single-valid.ipynb](https://github.com/svjack/tableQA-Chinese/blob/main/notebook/tableqa-single-valid.ipynb)
-[fine-tune-on-finance.ipynb](https://github.com/svjack/tableQA-Chinese/blob/main/notebook/fine-tune-on-finance.ipynb)
-
-(snorkel_env)
-[finance_dictionary_construction.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/finance_dictionary_construct.py)
-[agg-classifier.ipynb](https://github.com/svjack/tableQA-Chinese/blob/main/notebook/agg-classifier.ipynb)
-[tableqa_finance_unsupervised.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableqa_finance_unsupervised.py)
-
-(topic_env) 
-[tableqa_search.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableqa_search.py)
-
+Following is the different file and their env mapping.<br/>
+<br/>
+(jointbert_env)<br/>
+[condition_trainer.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/condition_trainer.py)<br/>
+[tableQA_single_table.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableQA_single_table.py)<br/>
+[tableqa-single-valid.ipynb](https://github.com/svjack/tableQA-Chinese/blob/main/notebook/tableqa-single-valid.ipynb)<br/>
+[fine-tune-on-finance.ipynb](https://github.com/svjack/tableQA-Chinese/blob/main/notebook/fine-tune-on-finance.ipynb)<br/>
+<br/>
+(snorkel_env)<br/>
+[finance_dictionary_construction.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/finance_dictionary_construct.py)<br/>
+[agg-classifier.ipynb](https://github.com/svjack/tableQA-Chinese/blob/main/notebook/agg-classifier.ipynb)<br/>
+[tableqa_finance_unsupervised.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableqa_finance_unsupervised.py)<br/>
+<br/>
+(topic_env)<br/>
+[tableqa_search.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableqa_search.py)<br/>
+<br/>
 <br/>
 
 <!-- USAGE EXAMPLES -->
@@ -199,21 +199,21 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <h1><b>Simple Usage</b></h1>
 
-This is the recommend way to use this project, because the financial dictionary build by call api from [ownthink](https://github.com/ownthink/KnowledgeGraphData).
+This is the recommend way to use this project, because the financial dictionary build by call api from [ownthink](https://github.com/ownthink/KnowledgeGraphData).<br/>
 
-If the api not stable or some random state change for [Bertopic](https://github.com/MaartenGr/BERTopic) , All may have bad effect on  finance profile for databaseQA. 
-So i recommend use the following data.tar.gz in the  [Google Drive](https://drive.google.com/drive/folders/19NcYWybSBi_44zfcbtstLXk5rB_SymJt?usp=sharing) at least.
+If the api not stable or some random state change for [Bertopic](https://github.com/MaartenGr/BERTopic) , All may have bad effect on  finance profile for databaseQA. <br/>
+So i recommend use the following data.tar.gz in the  [Google Drive](https://drive.google.com/drive/folders/19NcYWybSBi_44zfcbtstLXk5rB_SymJt?usp=sharing) at least.<br/>
 
-And with data.tar.gz you only need install (jointbert_env) to explore tableQA and databaseQA.
+And with data.tar.gz you only need install (jointbert_env) to explore tableQA and databaseQA.<br/>
 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Download pre-trained model and data from [Google Drive](https://drive.google.com/drive/folders/19NcYWybSBi_44zfcbtstLXk5rB_SymJt?usp=sharing)
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp;This share path contain three file :
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>1 bert.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) trained model) 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>2 conds.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) friendly dataset) 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>3 data.tar.gz</b> ([Bertopic](https://github.com/MaartenGr/BERTopic) and [Snorkel](https://github.com/snorkel-team/snorkel) produce data for perform databaseQA)
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Download pre-trained model and data from [Google Drive](https://drive.google.com/drive/folders/19NcYWybSBi_44zfcbtstLXk5rB_SymJt?usp=sharing)<br/>
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp;This share path contain three file :<br/>
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>1 bert.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) trained model) <br/>
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>2 conds.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) friendly dataset) <br/>
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>3 data.tar.gz</b> ([Bertopic](https://github.com/MaartenGr/BERTopic) and [Snorkel](https://github.com/snorkel-team/snorkel) produce data for perform databaseQA)<br/>
 
-Unzip them into root path of this project and config them into above Full Usage files.
-You can simply find where to config by search unzipped fiile name in the notebooks and scripts.
+Unzip them into root path of this project and config them into above Full Usage files.<br/>
+You can simply find where to config by search unzipped fiile name in the notebooks and scripts.<br/>
 
 ## tableQA Usage
 <!--
