@@ -4,7 +4,7 @@
   <h3 align="center">tableQA-Chinese</h3>
 
   <p align="center">
-   		Unsupervised tableQA  and databaseQA on chinese financial question and tabular data
+   		Unsupervised tableQA  and databaseQA on chinese finance question and tabular data
     <br />
   </p>
 </p>
