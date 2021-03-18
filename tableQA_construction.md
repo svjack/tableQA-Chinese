@@ -61,6 +61,7 @@ To tackle them. tableQA-chinese replace SQUAD qa model by [Joint Intent Classifi
 And use [snorkel’s](https://github.com/snorkel-team/snorkel) labeling model help to construct a keyword based classifier to predict aggregate operator. (without training, but use rule based order permutations [backtest](https://en.wikipedia.org/wiki/Backtesting) method,  like many [finance strategy](https://en.wikipedia.org/wiki/Trading_strategy) backtest framework used to choose the best strategy——like [vectorbt](https://github.com/polakowo/vectorbt/blob/master/examples/MACDVolume.ipynb))
 
 Finally , To improve the tableQA task into databaseQA, add search components on finance tables to make this project as a toolkit for information aggregation above database (finance tables) with different table structure which is useful for database construction explore and data consolidation from multi-table.
+This demand drive from explore the underlying data architecture of [zvt](https://github.com/zvtvz/zvt), which is a chinese modular quant framework based on sqlite.
 
 This need merge the text similarity between question and table descriptions with measure scores of tableQA conclusion. tableQA-Chinese handle it as a  
 consistent percentages’ ranking problem.
