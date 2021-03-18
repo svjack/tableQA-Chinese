@@ -190,11 +190,11 @@ So i recommend use the following data.tar.gz in the  [Google Drive](https://driv
 
 And with data.tar.gz you only need install (jointbert_env) to explore tableQA and databaseQA.<br/>
 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Download pre-trained model and data from [Google Drive](https://drive.google.com/drive/folders/19NcYWybSBi_44zfcbtstLXk5rB_SymJt?usp=sharing)<br/>
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp;This share path contain three file :<br/>
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>1 bert.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) trained model) <br/>
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>2 conds.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) friendly dataset) <br/>
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <b>3 data.tar.gz</b> ([Bertopic](https://github.com/MaartenGr/BERTopic) and [Snorkel](https://github.com/snorkel-team/snorkel) produce data for perform databaseQA)<br/>
+Download pre-trained model and data from [Google Drive](https://drive.google.com/drive/folders/19NcYWybSBi_44zfcbtstLXk5rB_SymJt?usp=sharing)<br/>
+This share path contain three file :<br/>
+ <b>1 bert.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) trained model) <br/>
+ <b>2 conds.tar.gz</b> ([JointBERT](https://github.com/monologg/JointBERT) friendly dataset) <br/>
+ <b>3 data.tar.gz</b> ([Bertopic](https://github.com/MaartenGr/BERTopic) and [Snorkel](https://github.com/snorkel-team/snorkel) produce data for perform databaseQA)<br/>
 
 Unzip them into root path of this project and config them into above Full Usage files.<br/>
 You can simply find where to config by search unzipped fiile name in the notebooks and scripts.<br/>
