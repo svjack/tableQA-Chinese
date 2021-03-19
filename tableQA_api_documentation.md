@@ -258,7 +258,7 @@ when set only_req_columns to True, only return the truly needed prediction of qu
  tableqa_finance_unsupervised.py
   </a></h3>
 
-&ensp; &ensp; &ensp; use profile build by [tableqa_search.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableQA_single_table.py) to filter out  finance tables from table collection.
+&ensp; &ensp; &ensp; use profile build by [tableqa_search.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableqa_search.py) to filter out  finance tables from table collection.
 
 <b>retrieve_finance_tag_df</b><br/>
 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; build finance tag dataframe from json format finance dictionaries.
@@ -268,7 +268,7 @@ when set only_req_columns to True, only return the truly needed prediction of qu
 
 <b>low_evidence_finance_df</b><br/>
 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;[snorkel labeling function](https://snorkel.readthedocs.io/en/v0.9.3/packages/_autosummary/labeling/snorkel.labeling.LabelingFunction.html) conclusion that predict samples(tables) as finance tables (use labeling function if_top_topic_id if_max_topic_id from label made by [Bertopic](https://github.com/MaartenGr/BERTopic) 
-from [tableqa_search.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableQA_single_table.py), if_other_topic is a observe rule on title, if_tag_in_entities_* use finance_tag_df in different tag group ) 
+from [tableqa_search.py](https://github.com/svjack/tableQA-Chinese/blob/main/script/tableqa_search.py), if_other_topic is a observe rule on title, if_tag_in_entities_* use finance_tag_df in different tag group ) 
 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; After this voting (labeling model fit prediction) and some rule based filter, use filter_high_evidence_func to produce a relatively clean finance table subset, and save this subset’s profile to local
 
 <br />
