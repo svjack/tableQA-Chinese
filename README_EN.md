@@ -9,7 +9,7 @@
   </p>
 </p>
 
-
+[中文简介](README.md)
 
 <!-- TABLE OF CONTENTS -->
 
