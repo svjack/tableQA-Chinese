@@ -158,6 +158,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 </p>
 </h4>
 
+## Huggingface 空间例子 
+你可以通过点击下面的链接在 Huggingface 空间上尝试单表 TableQA 例子 : <br/>
+https://huggingface.co/spaces/svjack/TableQA-Chinese
+
 ## databaseQA 使用方式
 
 <h4>
