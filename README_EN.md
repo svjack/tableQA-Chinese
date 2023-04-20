@@ -153,6 +153,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 </p>
 </h4>
 
+## Huggingface Space demo 
+You can try single TableQA demo on the huggingface space by click the below link : <br/>
+https://huggingface.co/spaces/svjack/TableQA-Chinese
+
 ## databaseQA Usage
 
 <h4>
